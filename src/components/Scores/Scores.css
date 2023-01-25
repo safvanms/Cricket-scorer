@@ -1,0 +1,113 @@
+.score-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.score-board {
+  background-color: rgb(27, 114, 84);
+  width: 250px;
+  height: 65px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px gray;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: aliceblue;
+}
+
+.overs-section {
+  background-color: rgb(22, 92, 67);
+  width: 180px;
+  height: 25px;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  margin-top: -70px;
+  font-weight: 500;
+  font-size: 12px;
+  box-shadow: 2px 2px 2px gray;
+  gap: 20px;
+}
+
+.rr {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 70px;
+}
+
+.btns {
+  padding: 40px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color:rgb(206, 211, 206) ;
+  height:215px;
+  border-radius: 20px 20px 10px 10px;
+}
+
+
+.disabled {
+  color: rgb(243, 243, 243);
+  background-color: rgb(155, 155, 156);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+button {
+  width: 65px;
+  height: 50px;
+background-color: rgb(2, 61, 44);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+}
+
+button:hover {
+  box-shadow: 1px 1px 1px black;
+  border: 1px solid gray;
+  background-color: rgb(94, 93, 93);
+}
+
+.end-innings{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 10px 0px;
+  color: red;
+}
+
+
+.this-over{
+display: flex;
+justify-content: flex-start;
+padding: 10px 15px 10px 15px;
+background-color: rgb(2, 61, 44);;
+width: fit-content;
+margin-left: 10px;
+border-radius: 6px;
+color: #ffff;
+height: 100%;
+}
+
+.last-over{
+ margin: 0px 10px 0px 0px;
+ padding: 10px 15px 10px 15px;
+ background-color: rgb(144, 146, 145);;
+width: fit-content;
+margin-left: 15px;
+border-radius: 6px;
+}
+
+.lastOver{
+  display: flex;
+  justify-content: space-between;
+
+}
