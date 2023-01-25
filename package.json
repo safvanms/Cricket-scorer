@@ -12,7 +12,6 @@
     "nanoid": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-mde": "^11.5.0",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.7.0",
     "react-scripts": "^5.0.1",
@@ -22,7 +21,7 @@
   },
   "scripts": {
     "start": "set PORT=8000 && react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI='' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
